@@ -15,16 +15,16 @@
 
 /* Général */
 body {
-	color: #F0E39E;
-	background: #181A12; /* Voir -> Note 1 ci-dessous */
+	color: #FFFFFF; /* titre */
+	background: #000000; /* Voir -> Note 1 ci-dessous */
 }
 
 a {
-	color: #FF6533;
+	color: red;
 }
 
 a:hover, a:focus {
-	color: #FF4C00;
+	color: red;
 }
 
 strong {
@@ -33,43 +33,45 @@ strong {
 
 /* En-tête */
 #entete {
-	background: #2C2F22;
+	background: #000000;
+	
 }
 
 /* Navigation */
 #navigation {
-	background: #181A12;
+	background: #383737;
 }
 
 #navigation a {
-	color: #FF6533;
+	color: #FFFFFF;
 }
 
 #navigation a:hover, #navigation a:focus {
-	background: #000000;
+	background: #009977
+;
 }
 
 /* Contenu principal */
 #contenu {
-	color: #363B29;
-	background: #cbd888;
+	color: #000000;
+	background: #d7d6d7;
 }
 
 #contenu a {
-	color: #332510;
+	color: #FFFFFF;
 }
 
 #contenu a:hover, #contenu a:focus {
-	color: #6E5122;
+	color: #FFFFFF;
 }
 
 #contenu strong {
-	color: #181A12;
+	color: #FFFFFF;
 }
 
 /* Pied de page */
 #pied {
-	color: #E6A948;
+	color: #FFFFFF;
 }
 
 /* --- POSITIONNEMENT --- */
@@ -81,25 +83,29 @@ body {
 
 /* En-tête */
 #entete {
-	padding: 15px 20px 10px 20px;
+	padding: 15px 20px 10px 420px;
+	
 }
 
 #entete h1 {
 	margin: 0;
+
 }
 
 #entete h1 img {
 	float: left;
 	margin: 7px 20px 10px 0;
+
 }
 
 #entete .sous-titre {
 	margin: 4px 0 15px 0;
+
 }
 
 /* Menu de navigation */
 #navigation {
-	padding: 12px 15px;
+	padding: 20px 15px;
 }
 
 #navigation ul {

@@ -16,27 +16,30 @@ html {
 body {
 	margin: 0;
 	padding: 10px 20px; /* Note -> 2 */
-	font-family: Verdana, "Bitstream Vera Sans", "Lucida Grande", sans-serif;
+	font-family: Tahoma, "Bitstream Vera Sans", "Lucida Grande", sans-serif;
 	/* 3 */
 	font-size: .8em; /* -> 4 */
 	line-height: 1.25; /* -> 5 */
-	color: dark blue;
+	color: dark red;
 	background: grey;
 }
 
 /* Titres */
 h1, h2, h3, h4, h5, h6 {
 	margin: 1em 0 .5em 0; /* -> 6 */
+
 }
 
 h1, h2 {
 	font-family: Georgia, "Bitstream Vera Serif", Norasi, serif;
 	font-weight: normal; /* -> 7 */
+
 }
 
 h1 {
 	font-size: 3em; /* -> 8 */
 	font-style: italic;
+
 }
 
 h2 {

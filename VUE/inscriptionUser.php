@@ -22,12 +22,13 @@ $pageInscriptionUser->contenu = '<section>
 					<span>Email : </span>
 					<input type="text" name="email" id="email"  />
 				</label>		
-				<label>
-					<span>pseudo : </span>
+				<br><br><label>
+					<span>Pseudo : </span>
 					<input  type="text" name="pseudo"  id="pseudo" />
 				</label>
+				<br><br>
 			<label>
-					<span>communaute : </span>
+					<span>Communaute : </span>
 					<input  type="text" name="communaute"  id="communaute" />
 				</label>
 			</fieldset>

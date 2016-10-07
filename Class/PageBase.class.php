@@ -18,15 +18,15 @@ class pageBase {
 		$this->titre = $t;
 		$this->description = 'notation des jeux videos';
 		$this->motsCles = 'jeux videos,note,geek,informatique';
-		$this->entete = '<header><a href="index.php"><img src="./Image/Jeux-videos-logo.jpg" alt="photos des pochettes de jeux videos"></a> NOTAGAME : noter vos jeux vid&eacute;os pr&eacute;f&eacute;r&eacute;s</header>';
+		$this->entete = '<header><a href="index.php"></a>NOTAGAME</header>';
 		$this->menu = '<nav> 
 			<ul>
-				<a href="inscriptionUser.php"><li>s\'inscrire </li></a>
-				<a href="ConsultationJeuxEtCommentaire.php"><li>Consultation des Commentaires par JV</li></a>
-				<a href="ajoutCommentaireJeux.php"><li>Notation des jeux vidéos présents</li></a>
+				<a href="inscriptionUser.php"><li>Inscription </li></a>
+				<a href="ConsultationJeuxEtCommentaire.php"><li>Consultation des Commentaires</li></a>
+				<a href="ajoutCommentaireJeux.php"><li>Notation des jeux vidéos</li></a>
 			</ul>
 		</nav>';
-		$this->piedpage = '<footer>copyright 1FO SIO 49 Chevrollier : 1fo.sio.49@gmail.com - technologies mises en oeuvre PHP objet - MVC - jquery - Ajax </footer>';
+		$this->piedpage = '<footer>Jonas - Maelyan - Laurene --- Projet PPE</footer>';
 	}
 	public function __set($propriete, $valeur) {
 		switch ($propriete) {
